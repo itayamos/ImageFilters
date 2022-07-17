@@ -151,7 +151,7 @@ public class Panel extends JPanel implements ActionListener {
     public void actionPerformed(ActionEvent e) {
 
         try{
-            URL url= url = new URL(textField.getText());
+            URL url= new URL(textField.getText());
             if(e.getSource()== darker){
                 if(validation(textField.getText())) {
                     filter1(url);
